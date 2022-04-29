@@ -31,9 +31,9 @@ class Sprite {
     } 
 
     animateFrames(){
-        this.framesElapsed++
+        this.framesElapsed++ //add 1 to frames elapsed
 
-    if (this.framesElapsed % this.framesHold === 0){
+    if (this.framesElapsed % this.framesHold === 0){ //if end of frames is re
      if (this.framesCurrent < this.frames - 1) {this.framesCurrent++
     } else {
         this.framesCurrent = 0;
@@ -72,7 +72,7 @@ class Fighter extends Sprite {
                 this.health = 100
                 this.framesCurrent = 0
                 this.framesElapsed = 0
-                this.framesHold = 6
+                this.framesHold = 6 // speed of animation loop
                 this.dead = false
         
                 this.sprites = sprites 
