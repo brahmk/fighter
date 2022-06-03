@@ -15,16 +15,6 @@ const background = new Sprite({
   imageSrc: "./img/background.png",
 });
 
-// const shop = new Sprite({
-//     position: {
-//         x: 600,
-//         y: 128
-//     },
-//     imageSrc: './img/shop.png',
-//     scale: 2.75,
-//     frames: 6
-// })
-
 const player = new Fighter({
   position: {
     x: 0,
@@ -39,7 +29,7 @@ const player = new Fighter({
     x: 0,
     y: 0,
   },
-  imageSrc: "./img/samuraiMack/idle.png",
+  imageSrc: "./img/hellminth/idle.png",
   frames: 8,
   scale: 2,
   offset: {
@@ -48,36 +38,36 @@ const player = new Fighter({
   },
   sprites: {
     idle: {
-      imageSrc: "./img/samuraiMack/idle_hellminth3.png",
+      imageSrc: "./img/hellminth/idle_hellminth2.png",
       frames: 8,
     },
 
     run: {
-      imageSrc: "./img/samuraiMack/runFlip.png",
+      imageSrc: "./img/hellminth/runFlip.png",
       frames: 8,
     },
 
     jump: {
-      imageSrc: "./img/samuraiMack/runflip.png",
+      imageSrc: "./img/hellminth/runflip.png",
       frames: 2,
     },
 
     fall: {
-      imageSrc: "./img/samuraiMack/runFlip.png",
+      imageSrc: "./img/hellminth/runFlip.png",
       frames: 8,
     },
 
     attack1: {
-      imageSrc: "./img/samuraiMack/attack1.png",
+      imageSrc: "./img/hellminth/attack1.png",
       frames: 6,
     },
 
     hit: {
-      imageSrc: "./img/samuraiMack/hit.png",
+      imageSrc: "./img/hellminth/hit.png",
       frames: 4,
     },
     death: {
-      imageSrc: "./img/samuraiMack/death.png",
+      imageSrc: "./img/hellminth/death.png",
       frames: 6,
     },
   },
