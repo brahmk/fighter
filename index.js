@@ -98,10 +98,10 @@ const enemy = new Fighter({
   },
   imageSrc: "./img/kenji/idle.png",
   frames: 4,
-  scale: 1.5,
+  scale: 1.8,
   offset: {
     x: 215,
-    y: 100,
+    y: 10,
   },
   sprites: {
     idle: {
@@ -141,7 +141,7 @@ const enemy = new Fighter({
   attackBox: {
     offset: {
       x: -170,
-      y: 50,
+      y: 40,
     },
     width: 170,
     height: 50,
